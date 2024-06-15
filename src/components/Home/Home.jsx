@@ -29,7 +29,7 @@ const Home = () => {
                 </div>
                 <ul className="mt-5 mb-0" style={{display:"flex",flexDirection:"row",justifyContent:"space-evenly"}}>
 
-                        <li className="list-inline-item ml-5 mr-5 " style={{cursor:"pointer"}} onClick={()=>window.location.href="/sorting"}>
+                        <li className="list-inline-item ml-5 mr-5 " style={{cursor:"pointer"}} onClick={()=> href="https://manmeet2607.github.io/Sorting-Visualizer/sorting"}>
                         <div className="card" style={{width: "16rem"}}>
                             <img className="card-img-top img algo-image" src={bar} alt="Card image cap"/>
                             <div style ={{backgroundColor:"transparent"}} className="card-body">

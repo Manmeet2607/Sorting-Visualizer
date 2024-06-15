@@ -1,6 +1,7 @@
 
 import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import Home from './components/Home/Home';
 import Sorting from './components/Sorting/Sorting.jsx'
 
@@ -8,7 +9,7 @@ import Sorting from './components/Sorting/Sorting.jsx'
 function App() {
   return (
     <div className="App">
-      <BrowserRouter  basename={process.env.PUBLIC_URL}>
+      <BrowserRouter  basename='/Sorting-Visualizer'>
       <Routes>
           <Route exact path="/" element={<Home/>} />
           <Route exact path="/sorting" element={<Sorting/>} />
