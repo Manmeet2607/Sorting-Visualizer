@@ -8,10 +8,10 @@ import Sorting from './components/Sorting/Sorting.jsx'
 function App() {
   return (
     <div className="App">
-      <BrowserRouter  basename={process.env.PUBLIC_URL}>
+      <BrowserRouter  >
       <Routes>
           <Route exact path="/" element={<Home/>} />
-          <Route exact path="/sorting"element={<Sorting/>} />
+          <Route exact path="/sorting" element={<Sorting/>} />
          
       </Routes>
     </BrowserRouter>
