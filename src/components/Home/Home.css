@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('../../assets/DataTransfer-BW47B.ttf') format('truetype');
+  }
+
+#background-video{
+    position: fixed;
+    z-index: -1;
+    min-width: 100%;
+    min-height:100%;
+    object-fit: cover;
+    right:0;
+    bottom:0;
+}
+
+.logo{
+    width:250px;
+    padding-top: 50px;
+    margin: auto;
+}
+
+.main-title{
+    font-family: 'MyFont';
+    font-size: 5rem;
+    color:#dfeae9e0;
+}
+
+.description-title{
+    font-size:18px;
+    color:#ffffff;
+    width:50%;
+    margin:auto;
+}
+
+.card{
+    background-color: transparent;
+}
+
+.card::after{
+    content: "";
+    bottom: 0;
+    top: 0;
+  left: 0;
+  position: absolute;
+  height: 50%;
+  width: 5px;
+  color: #fff;
+}
+.algo-image{
+    height: 175px;
+    width: auto;
+    object-fit:cover;
+    background-color:transparent;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color:white;
+}
+

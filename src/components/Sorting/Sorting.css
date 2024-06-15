@@ -1,0 +1,14 @@
+
+.main-container {
+    width: 100%;
+    
+    position: absolute;
+    background-image: linear-gradient(
+      to bottom right,
+      #265077,
+      #022140,
+      #242536,
+      #0a2739,
+      #183258
+  );
+  }
