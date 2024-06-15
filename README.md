@@ -1,4 +1,4 @@
-liVE AT: https://clever-starburst-6646cb.netlify.app/
+LIVE AT: https://clever-starburst-6646cb.netlify.app/
 
 # Getting Started with Create React App
 
